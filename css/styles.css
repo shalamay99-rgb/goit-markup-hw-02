@@ -1,8 +1,5 @@
-/*font-family: "Roboto", sans-serif;
-font-family: "Raleway", sans-serif;*/
-
-.body {
-  font-family: "Raleway", "Roboto", sans-serif;
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
   background-color: #fff;
   color: #434455;
 }
@@ -67,16 +64,25 @@ a {
   text-align: center;
   color: #fff;
 }
-.button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-}
+
 .hero-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
+
+.hero-button:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
 /* hero============= */
 .features {
@@ -115,6 +121,7 @@ a {
 /* =======features====== */
 
 .team {
+  background: #fff;
 }
 
 .team-title {
