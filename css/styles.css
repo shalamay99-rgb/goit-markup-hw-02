@@ -59,7 +59,7 @@ a {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -82,11 +82,11 @@ a {
 
 .hero-button:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background: #404bbf;
 }
 /* hero============= */
 .features {
-  background-color: #f4f4fd;
+  background: #fff;
 }
 
 .features-title {
@@ -121,7 +121,7 @@ a {
 /* =======features====== */
 
 .team {
-  background: #fff;
+  background: #f4f4fd;
 }
 
 .team-title {
@@ -137,6 +137,7 @@ a {
 }
 
 .team-item {
+  background: #fff;
 }
 
 .team-image {
